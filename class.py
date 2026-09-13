@@ -29,8 +29,8 @@ group2_x, group2_y = [100, 50, 20, -30, -80, -10, -30], [-100, -60, -120, -80, -
 
 # 4. 그래프 시각화 설정
 fig, ax = plt.subplots(figsize=(7, 5))
-ax.scatter(group1_x, group1_y, color='blue', label='Group 1 (위쪽)')
-ax.scatter(group2_x, group2_y, color='red', label='Group 2 (아래쪽)')
+ax.scatter(group1_x, group1_y, color='blue', label='Group 1')
+ax.scatter(group2_x, group2_y, color='red', label='Group 2')
 
 x_vals = np.array([-150, 150])
 y_vals = a * x_vals + b
